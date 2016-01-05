@@ -1,7 +1,7 @@
 # jspm-ts-bundle
 Experimental repo to demonstrate JSPM TS bundling problems. 
 
-1. `git pull`
+1. pull
 1. `npm install`
 1. `npm run bundle`
 
@@ -24,4 +24,4 @@ Experimental repo to demonstrate JSPM TS bundling problems.
 ok   Built into build/built.js with source maps, unminified.
 ```
 
-`src/*` but should not be included...
+but `src/*` files should not be included...
