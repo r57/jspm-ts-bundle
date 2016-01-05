@@ -1,0 +1,20 @@
+{
+  "name": "ts-bundle",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "bundle": "jspm bundle 'src/**/* - [src/**/*]' build/built.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.19"
+  },
+  "jspm": {
+    "dependencies": {
+      "frankwallis/plugin-typescript": "github:frankwallis/plugin-typescript@^2.4.5",
+      "lodash": "npm:lodash@^3.10.1"
+    },
+    "devDependencies": {}
+  }
+}
