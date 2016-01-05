@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "bundle": "jspm bundle 'src/**/* - [src/**/*]' build/built.js"
+    "bundle": "jspm bundle 'src/**/* - [src/**/*]' build/built.js",
+    "postinstall": "jspm install"
   },
   "author": "",
   "license": "ISC",
